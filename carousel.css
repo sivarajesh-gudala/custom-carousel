@@ -1,0 +1,53 @@
+.carousel {
+  padding: 0;
+  height: 20vw;
+  background-color: black;
+  position: relative;
+}
+
+.carousel_title {
+  color: black;
+  text-align: center;
+}
+
+body {
+  margin: 10px;
+  background-color: gray;
+}
+
+.carousel_item {
+  background-color: white;
+  height: 20vw;
+}
+
+.caret {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+}
+
+.carousel_img {
+  width: 100%;
+  height: 100%;
+}
+
+.caret_container {
+  margin: 0 auto;
+}
+
+.right {
+  right: 0;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  margin-left: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
